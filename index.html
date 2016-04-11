@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>21丶</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+<header>
+	<h1>决胜21点！Fight！</h1>
+</header>
+
+<div class="room">
+<div id='btn1' >游戏房间 01</div>
+<div id='btn2' >游戏房间 02</div>	
+<div id='btn3' >游戏房间 03</div>	
+</div>
+
+
+<div class="gameArea">
+	<div class="state">
+		<div id="otherState"></div>
+		<div id="ourState"></div>
+	</div>
+	<div id="container">
+			<div id="otherDiv"></div>
+			<div id="ourDiv"></div>
+	</div>		
+
+</div>
+
+<div class="controll">
+	<div id="sendCard" style="display: none">发牌</div>
+	<div id="stopCard" style="display: none">停牌</div>
+	<div id="ins_btn" style="display: none">买保险</div>	
+</div>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="js.js"></script>
+
+
+</body>
+</html>
